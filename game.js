@@ -70,7 +70,7 @@ function update() {
     ball.update();
 
     //player
-    player.jumpTo(30, ball.y);
+    player.jumpTo(30, mouse.y);
     player.update();
 
     //computer
