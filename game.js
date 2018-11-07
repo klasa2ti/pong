@@ -1,7 +1,7 @@
 //variables
 const canvas = document.querySelector("canvas");
-canvas.width = 1200;
-canvas.height = 600;
+canvas.width = 600;
+canvas.height = 300;
 const ctx = canvas.getContext("2d");
 
 const player = new Player(25, 100, "#fff", ctx);
@@ -43,7 +43,7 @@ window.addEventListener("mousemove", cursor => {
 function init() {
     player.start(30, 100);
     computer.start(canvas.width - 30, 100);
-    ball.start(600, 300)
+    ball.start(300, 150)
 }
 
 //update
